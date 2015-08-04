@@ -1,6 +1,6 @@
 {
   "name": "yoink",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Take a value out of an object by key",
   "license": "MIT",
   "repository": "boneskull/yoink",
@@ -22,7 +22,5 @@
     "value",
     "remove"
   ],
-  "dependencies": {
-    "lodash.get": "^3.7.0"
-  }
+  "dependencies": {}
 }
