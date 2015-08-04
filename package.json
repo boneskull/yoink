@@ -1,0 +1,28 @@
+{
+  "name": "yoink",
+  "version": "0.1.0",
+  "description": "Take a value out of an object by key",
+  "license": "MIT",
+  "repository": "boneskull/yoink",
+  "author": {
+    "name": "Christopher Hiller",
+    "email": "boneskull@boneskull.com",
+    "url": "boneskull.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "yoink.js",
+  "keywords": [
+    "object",
+    "key",
+    "value",
+    "remove"
+  ],
+  "dependencies": {
+    "lodash.get": "^3.7.0"
+  }
+}
