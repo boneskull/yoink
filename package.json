@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Take a value out of an object by key",
   "license": "MIT",
-  "repository": "boneskull/yoink",
+  "repository": "https://github.com/boneskull/yoink.git",
   "author": {
     "name": "Christopher Hiller",
     "email": "boneskull@boneskull.com",
