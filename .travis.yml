@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+- iojs
+- '0.12'
+- '0.10'
 sudo: false
 script: npm test
 after_script:
 - cat ./coverage/lcov.info | ./node_modules/.bin/codeclimate-test-reporter
+env:
+  global:
+    secure: aVYivMAgfod6iH9KEhCDgi32hhV/7bxvF+h1krkRAm7oCyES/qAS9TtXskb3lU63SkPtvtfeFgVkPgsSoOZKeR6H7esPIHC/HKLx5ueJUPYM3WXxGbFFH8G9iDJvWTrlALhF4oU9DJefQSsv54DfO4nL1n9v4nhgR8zgK4uPMeHlZFw6EMw5TNFKOVQA9Mof5yCjAR2ZIAH6VMYklZ/4wLlXS0j37Tl4bWK1SULQVinyolB0l0N8nNOWuWjRfGVxYqaJZWsUNLfekJZ6vck4YBem5xP8S39gDZLKq1Z56jO79hLcJ0EtQVFtXjA9D5oCOHgyTJ4qoc1KMP/pVr94mMdkKKxKdKw3NbsQ5rMNf4If+poaotKGZ6+kRV+HHI+uykJkSMnZH+MMAUQF5yUU0VliLNqadlFGUenSsmkxoVO4jdw/cyHB4JaqKgghw3tRJyfS3hfmAAQdXWJEKWCdHBkDVOSOiTeXIz4BBhaDyVPws2/IVHW5vYWv7owcKktbm6skzkIdYt764njd3m47R1meEROV1EQ2sSoBXqpynAmvPBveDj690bIh2zDl+OJapRqWg9O0KxlTE5T+ELCTt5vWPZzZH+Mmdy818B3KSRS8hEOMYwD3ggZA6H5MSVR811xhVsfsuypJW223qRvfEGCsWlGfHR97+wkSpB+bJmM=
